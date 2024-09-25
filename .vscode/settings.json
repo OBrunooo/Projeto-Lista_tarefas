@@ -1,6 +1,10 @@
+// settings.json
 {
-    "editor.formatOnSave": false,
-    "editor.codeActionsOnSave": {
-      "source.fixAll.eslint": true
-    }
-  }
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+    "source.fixAll.eslint": true,
+  },
+  "eslint.format.enable": true,
+  "files.autoSave": "onFocusChange"
+}
